@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/jpteti
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://jpteti.com
+  * I am jpteti (https://keybase.io/jpteti) on keybase.
+  * I have a public key ASABPGpKM69FmoOnWR6mCceeky3i3R7NcQvl8WJPS3W4xAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120013c6a4a33af459a83a7591ea609c79e932de2dd1ecd710be5f1624f4b75b8c40a",
+            "host": "keybase.io",
+            "kid": "0120013c6a4a33af459a83a7591ea609c79e932de2dd1ecd710be5f1624f4b75b8c40a",
+            "uid": "8ab0ab755e4c1fd07e4fe743d63ade00",
+            "username": "jpteti"
+        },
+        "service": {
+            "hostname": "jpteti.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.16"
+    },
+    "ctime": 1472509002,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1472508996,
+        "hash": "14f741d53c860780fc174454b6071d20bfeb8125b430cd9937127fe6069159d116de45543716d1709abfc392dfddea60ce25bb2406a4514364e3a5b3c0093756",
+        "seqno": 608195
+    },
+    "prev": "5b203d7506f86681af8dc1c9bd033a162d2e8b3361764a8f18f68766963d76a2",
+    "seqno": 10,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgATxqSjOvRZqDp1kepgnHnpMt4t0ezXEL5fFiT0t1uMQKp3BheWxvYWTFAvB7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMDEzYzZhNGEzM2FmNDU5YTgzYTc1OTFlYTYwOWM3OWU5MzJkZTJkZDFlY2Q3MTBiZTVmMTYyNGY0Yjc1YjhjNDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMDEzYzZhNGEzM2FmNDU5YTgzYTc1OTFlYTYwOWM3OWU5MzJkZTJkZDFlY2Q3MTBiZTVmMTYyNGY0Yjc1YjhjNDBhIiwidWlkIjoiOGFiMGFiNzU1ZTRjMWZkMDdlNGZlNzQzZDYzYWRlMDAiLCJ1c2VybmFtZSI6ImpwdGV0aSJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoianB0ZXRpLmNvbSIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTYifSwiY3RpbWUiOjE0NzI1MDkwMDIsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ3MjUwODk5NiwiaGFzaCI6IjE0Zjc0MWQ1M2M4NjA3ODBmYzE3NDQ1NGI2MDcxZDIwYmZlYjgxMjViNDMwY2Q5OTM3MTI3ZmU2MDY5MTU5ZDExNmRlNDU1NDM3MTZkMTcwOWFiZmMzOTJkZmRkZWE2MGNlMjViYjI0MDZhNDUxNDM2NGUzYTViM2MwMDkzNzU2Iiwic2Vxbm8iOjYwODE5NX0sInByZXYiOiI1YjIwM2Q3NTA2Zjg2NjgxYWY4ZGMxYzliZDAzM2ExNjJkMmU4YjMzNjE3NjRhOGYxOGY2ODc2Njk2M2Q3NmEyIiwic2Vxbm8iOjEwLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQLd3bRQtmk6ufNjwuSDDx87EmRFh6V5dwDjAOsmTY8Lp9pr6RoXx3bEnsuP2BySkXJqfVS0+57D1M8ed3dmT4wioc2lnX3R5cGUgo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jpteti
+
+==================================================================
