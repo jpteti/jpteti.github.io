@@ -1,74 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>J-P Teti</title>
-    <!-- TODO: Twitter card stuff and Facebook description and whatever else. -->
-    <!-- TODO: Stylesheets -->
-    <link href="/stylesheets/site.css" rel="stylesheet" />
-    <link href="/stylesheets/animate.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Source+Serif+Pro:400,600,700" rel="stylesheet">
-    <script src="/javascripts/jquery.min.js"></script>
-    <script src="/javascripts/parallax.min.js"></script>
-    <script src="/javascripts/flowtype.js"></script>
-    <meta name="viewport" content="initial-scale=1, user-scalable=no, width=device-width"/>
-  </head>
-  <body>
-    <div id="header">
-      <div id="header_container" class="animated fadeInDown">
-        <h1>John-Paul Teti</h1>
-      </div>
+<head>
+  <title>J-P Teti</title>
+  
+  <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+  <div id="container">
+    <div id="main-text">
+      <p><strong>J-P Teti</strong> is an undergraduate computer science student at the University of Maryland, College Park. He's also a choral music, linguistics, and politics nerd.</p>
     </div>
-    <div id="page" class="animated fadeIn">
-      <div id="page_container">
-        <div id="intro">
-          <p>John-Paul Teti&mdash;he goes by J-P&mdash; is a computer science student at the
-          University of Maryland, College Park. He’s interested in Ruby and machine learning
-          and Swift and iOS and just about everything else in computer science&mdash;especially if it’s a buzzword. He uses a
-          Mac, not a PC. He’s also a giant choir nerd. Recently, he signed <a href="http://neveragain.tech">neveragain.tech</a>. Here are some of his projects:</p>
-        </div>
-        <div id="projects">
-          <h2>Projects</h2>
-          <!-- Works, not faith -->
-          <div class="project" id="project_concerto">
-            <h3><a href="https://playconcerto.com">Concerto</a></h3>
-            <p>Concerto is a web app for musicians and podcasters. <em>Coming soon.</em></p>
-          </div>
-          <div class="project" id="project_lux">
-            <h3><a href="http://choirlux.com">Lux</a></h3>
-            <p>Lux is a choir based in Hyattsville, MD. J-P’s friend Robby directs the choir, which J-P is in. He also built the website.</p>
-          </div>
-          <div class="project" id="project_trumple_of_doom">
-            <h3><a href="http://trumple.jpteti.com">The Trumple of Doom</a></h3>
-            <p>A Safari and Chrome extension that changes every instance of the phrase “Trump campaign” to the phrase “Temple of Doom”. SAD!</p>
-          </div>
-          <div class="project" id="project_extra_cheese">
-            <h3><a href="https://github.com/jpteti/extra-cheese">Extra Cheese</a></h3>
-            <p>A Safari and Chrome extension that changes every instance of the phrase “Supreme Leader” to the phrase “Supreme Pizza”.</p>
-          </div>
-          <div class="project" id="project_foundation_for_memes">
-            <h3><a href="http://log.jpteti.com">The J. Allan Teti Foundation for Memes</a></h3>
-            <p>This is J-P’s idiotic Tumblr account. Don't visit. It's dumb.</p>
-          </div>
-        </div>
-        <div id="contact_information">
-          <h2>Contact information</h2>
-          <p>J-P's Keybase account can be found <a href="https://keybase.io/jpteti">here</a>, and his GPG public key can be found <a href="/jp@jpteti.com.asc">here</a>.</p>
-          <p>You can email J-P: <a href="mailto:jp@jpteti.com">jp@jpteti.com</a>. You can also follow him on Twitter <a href="https://twitter.com/jpteti">@jpteti</a>. You can even call him or text him: <a href="tel:3015337780">301-533-7780</a>. That number also works with <a href="https://whispersystems.org/">Signal</a>, and you’re welcome to contact J-P that way too. If you add J-P on Facebook and he rejects your friend request, don’t be mad. It just means he hasn’t met you in person. But also, seriously, you’re mad because someone didn’t pretend to be your friend on a silly website? Maybe think about what led to you ending up here.</p>
-        </div>
-        <div id="footer">
-          <p><small>&copy; Copyright 2008-2017 John-Paul Teti. All rights reserved. Hosted on <a href="https://github.com">GitHub</a> Pages and built with <a href="http://middlemanapp.com">Middleman</a>.</small></p>
-      </div>
+    <div id="work">
+      <h2>Work</h2>
+      <ul class="positions">
+        <li><strong>Research assistant</strong>, <a href="http://ling.umd.edu/research/acquisition_lab/">Project on Children's Language Learning</a> (June 2018-<em>current</em>)</li>
+        <li><strong>Software development intern</strong>, <a href=https://sparkpost.com"">SparkPost</a> (May 2017-August 2017)</li>
+      </ul>
     </div>
-    <script>
-$('#header_container').flowtype({
-  minFont: 20,
-  maxFont: 40
-});
-$('#intro').flowtype({
-   minFont   : 18,
-   maxFont   : 26,
-});
-$('#header').parallax({imageSrc: '/images/header.jpg'});
-    </script>
-  </body>
+    <div id="projects">
+      <h2>Projects</h2>
+      <ul class="project-entries">
+        <li><strong><a href="https://choirlux.com">Lux</a></strong> is a choir based in Hyattsville, MD. I sing tenor and also do various tech, design, and assorted administrative stuff for the group.</li>
+        <li><strong><a href="http://trumple.jpteti.com">The Trumple of Doom</a></strong> is a Safari and Chrome extension that changes every instance of the phrase &ldquo;Trump campaign&rdquo; to the phrase &ldquo;Temple of Doom&rdquo;. SAD!</li>
+      </ul>
+    </div>
+    <div id="projects">
+      <h2>Contact Info</h2>
+      <ul class="contact-methods">
+        <li>Email me at <a href="mailto:jp@jpteti.com">jp@jpteti.com</a>.</li>
+        <li>Follow on Twitter: <a href="https://twitter.com/UhActually">@UhActually</a></li>
+        <li>I also have Signal; email me or @me on Twitter for the number.</li>
+      </ul>
+    </div>
+    <div id="footer">
+      <p>&copy; Copyright 2008-2018 John-Paul A. Teti. All rights reserved.</p>
+    </div>
+  </div>
+</body>
 </html>
