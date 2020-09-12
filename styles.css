@@ -1,4 +1,10 @@
-html, body    { background: #158eff; color: #ffffff; font-size: 1.1em; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; line-height: 1.4em; }
+html, body    { background: #158eff; }
+
+@media (prefers-color-scheme: dark) {
+  html, body    { background: #2c3e50; }
+}
+
+html, body    { color: #ffffff; font-size: 1.1em; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; line-height: 1.4em; }
 #container    { min-width: 400px; max-width: 900px; margin-left: auto; margin-right: auto; margin-top: 100px; border-top: 1px solid #ffffff; padding-top: 10px; }
 a, a:visited  { color: inherit; }
 a:hover, a:visited:hover { opacity: 0.8; }
