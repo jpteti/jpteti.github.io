@@ -2,47 +2,98 @@
 <html lang="en">
 <head>
   <title>J-P Teti</title>
-  
-  <link rel="stylesheet" type="text/css" href="/styles.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+  <link rel="stylesheet" href="/styles.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
   <meta name="viewport" content="initial-scale=1, user-scalable=no, width=device-width">
+
+  <script type="module">
+    import { Application, Controller } from "https://unpkg.com/@hotwired/stimulus/dist/stimulus.js"
+    window.Stimulus = Application.start()
+
+    Stimulus.register("year", class extends Controller {
+      static targets = [ "current" ]
+
+      connect() {
+        const currentYear = new Date().getFullYear()
+        this.currentTarget.innerText = currentYear.toString()
+      }
+    })
+  </script>
 </head>
-<body>
-  <div id="container">
-    <div id="main-text">
-      <p><strong><span title="John-Paul">J-P</span> Teti</strong> is a software engineer working in the Washington, DC area.</p>
+<body class="animate__animated animate__fadeIn">
+  <header id="header" class="hero">
+    <div class="hero-body">
+      <div class="container">
+        <h1>
+          <span class="title is-4">
+            <abbr title="John-Paul">J-P</abbr> Teti
+          </span>
+          <span class="subtitle is-4">is a software engineer working in the Philadelphia, PA&nbsp;area.</span>
+        </h1>
+      </div>
     </div>
-    <div id="education">
-      <h2>Education</h2>
-      <ul class="positions">
-        <li><strong>B.S., Computer Science</strong> (w/Linguistics concentration)</li>
-        <li>University of Maryland-College Park, May 2019</li>
+  </header>
+  <section id="skills" class="section">
+    <div class="container has-border-top pt-4">
+      <h2 class="title is-5">Skills</h2>
+      <div class="content" aria-role="presentation">
+        <ul>
+          <li>HTML, CSS</li>
+          <li>JavaScript / Typescript, especially <a href="https://stimulus.hotwired.dev">Stimulus</a></li>
+          <li>Ruby on Rails</li>
+          <li>React</li>
+        </ul>
+      </div>
+      <aside>
+        <p>I am highly familiar with React and Typescript, but these days I am more interested in <a href="https://hotwired.dev">Hotwire</a> and similar approaches that use server-rendered, progressively-enhanced HTML in a monolith rather than single-page applications.</p>
+      </aside>
+    </div>
+  </section>
+  <section id="education" class="section">
+    <div class="container has-border-top pt-4">
+      <h2 class="title is-5">Education</h2>
+      <dl>
+        <dt><strong><abbr title="Bachelor of Science">B.S.</abbr>, Computer Science</strong> (w/linguistics concentration)</dt>
+        <dd>University of Maryland&ndash;College Park, May 2019</dd>
+      </dl>
+    </div>
+  </section>
+  <section id="work" class="section">
+    <div class="container has-border-top pt-4">
+      <h2 class="title is-5">Work</h2>
+      <ul>
+        <li><strong>Software engineer</strong>, undisclosed firm (August 2019&ndash;<span>present</span>)</li>
+        <li><strong>Research assistant</strong>, <a href="https://linguistics.umd.edu/resources-facilities/labs/project-on-childrens-language-learning">Project on Children&rsquo;s Language Learning</a> (June 2018-May 2019)</li>
+        <li><strong>Software development intern</strong>, <a href="https://sparkpost.com">SparkPost</a> (May 2017&ndash;August 2017)</li>
       </ul>
     </div>
-    <div id="work">
-      <h2>Work</h2>
-      <ul class="positions">
-        <li><strong>Software engineer</strong>, undisclosed DC-area firm (August 2019-<em>present</em>)</li>
-        <li><strong>Research assistant</strong>, <a href="http://ling.umd.edu/research/acquisition_lab/">Project on Children's Language Learning</a> (June 2018-May 2019)</li>
-        <li><strong>Software development intern</strong>, <a href="https://sparkpost.com">SparkPost</a> (May 2017-August 2017)</li>
-      </ul>
-    </div>
-    <div id="projects">
-      <h2>Projects</h2>
+  </section>
+  <section id="projects" class="section">
+    <div class="container has-border-top pt-4">
+      <h2 class="title is-5">Projects</h2>
       <ul class="project-entries">
-        <li><strong><a href="https://choirlux.com">Lux</a></strong> is a choir based in Hyattsville, MD. I sing tenor and also do various design and administrative tasks for the group. (I am also a co-founder and member of the board of directors.)</li>
-        <li><strong><a href="http://rodifier.jpteti.com">The Rodifier</a></strong> is a Chrome extension that changes every instance of the phrase &ldquo;Benedict Option&rdquo; to the phrase &ldquo;City of Rod&rdquo;. We are waiting not for a Godot, but for a new&mdash;doubtless very different&mdash;stupid browser extension.</li>
+        <li>
+          <a href="https://choirlux.com">Lux</a> is a choir based in Washington, DC. I sing tenor and also do various design and administrative tasks for the group. (I am also a co-founder and member of the board of directors.)
+        </li>
       </ul>
     </div>
-    <div id="projects">
-      <h2>Contact Info</h2>
+  </section>
+  <section id="contact-information" class="section">
+    <div class="container has-border-top pt-4">
+      <h2 class="title is-5">Contact information and social network profiles</h2>
       <ul class="contact-methods">
-        <li>Email me at <a href="mailto:jp@jpteti.com">jp@jpteti.com</a>.</li>
-        <li>Follow on Mastodon: <a rel="me" href="https://mastodon.social/@jpteti">@jpteti</a></li>
+        <li>Email me: <a class="is-family-monospace" href="mailto:jp@jpteti.com">jp@jpteti.com</a></li>
+        <li>Follow me on Mastodon: <a rel="me" href="https://mastodon.social/@jpteti" class="is-family-monospace">@jpteti@mastodon.social</a></li>
+        <li>Follow me on Bluesky: <a href="https://bsky.app/profile/jpteti.com" class="is-family-monospace">@jpteti.com</a></li>
       </ul>
     </div>
-    <div id="footer">
-      <p>&copy; Copyright 2008-2022 John-Paul A. Teti. All rights reserved.</p>
-    </div>
-  </div>
+  </section>
+  <footer class="footer has-text-centered has-text-grey-dark">
+    <p class="is-size-6" data-controller="year">&copy; Copyright 2008&ndash;<span data-year-target="current">(current year)</span> John-Paul A. Teti. All rights reserved.</p>
+  </footer>
 </body>
 </html>
